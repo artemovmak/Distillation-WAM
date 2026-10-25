@@ -12,9 +12,10 @@ world-model loss (B) puts the cube in the box.*
 
 ## Signals tested
 
+
 | # | Signal | How the student gets it | Testbed | Result |
 |---|---|---|---|---|
-| 1 | Future imagination at inference | Fast-WAM acting with vs without imagined future frames | LIBERO, LIBERO-Plus | not needed: 77.9 vs 77.1% on LIBERO-Plus, 3.9× the latency |
+| 1 | Future imagination on inference | Fast-WAM acting with vs without imagined future frames | LIBERO, LIBERO-Plus | not needed: 77.9 vs 77.1% on LIBERO-Plus, 3.9× the latency |
 | 2 | Pooled future latent of a WAM | auxiliary head on SmolVLA regresses one averaged future vector of the Fast-WAM teacher | LIBERO, LIBERO-Plus | no measurable gain: +2.0 pp, 95% CI [−2.2, +6.1] |
 | 3 | Value / outcome | outcome head on the policy's features | UR3 data | not learnable from our data: cross-session AUROC 0.40–0.43 |
 | 4 | **Spatial future latents of a video world model** | auxiliary heads on the scene tokens predict V-JEPA 2 latents 0.5–2 s ahead | UR3, offline + robot | **works**: grounding +0.136, 93% of the gap to π0.5 |
