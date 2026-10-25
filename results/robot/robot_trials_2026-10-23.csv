@@ -1,0 +1,23 @@
+date,model,cell,seed,outcome,duration_s,scene_shifted,note
+2026-10-23,A,3,401,success,36.7,no,dropped the cube and re-grasped
+2026-10-23,B,3,401,success,28.3,no,first attempt
+2026-10-23,A,8,402,success,51.8,no,dropped the cube and re-grasped
+2026-10-23,B,8,402,success,24.8,no,first attempt
+2026-10-23,A,1,403,failure,18.2,no,knocked the cube off the pad while grasping
+2026-10-23,B,1,403,failure,16.2,no,dropped the cube
+2026-10-23,B,1,401,failure,28.6,no,gripper closed too high; false force stop at the reach limit
+2026-10-23,B,1,401,failure,22.7,no,gripper closed too high
+2026-10-23,A,2,402,success,26.4,no,
+2026-10-23,B,2,402,success,22.7,no,
+2026-10-23,A,6,403,failure,11.1,no,pressed into the foam pad; force stop
+2026-10-23,B,6,403,failure,21.1,partly,pinned at the z floor then left the demo workspace; scene shifted during this episode
+2026-10-23,B,6,402,success,22.8,yes,
+2026-10-23,A,6,402,failure,15.7,yes,pressed against the z floor
+2026-10-23,A,9,402,failure,27.7,yes,did not go to the cube
+2026-10-23,B,9,402,failure,13.6,yes,pressed down on the cube; force stop
+2026-10-23,B,9,402,failure,28.8,yes,did not go to the cube (cell inferred from the cube position in the scene frame)
+2026-10-23,B,9,402,failure,28.7,yes,missed the cube (cell inferred from the cube position in the scene frame)
+2026-10-23,B,9,402,success,26.2,no,after the scene was realigned
+2026-10-23,A,9,402,failure,29.8,no,after the scene was realigned; did not find the cube
+2026-10-23,A,4,402,success,19.3,no,
+2026-10-23,B,4,402,success,19.7,no,
